@@ -11,21 +11,21 @@
 </head>
 
 <body>
-    <form>
+    <script src="app.js"></script>
+    <form id="form1">
         <div class="form-group">
             <label for="InputAge">Age</label>
             <input type="text" class="form-control" id="InputAge" placeholder="Enter your age">
         </div>
         <div class="form-group">
-            <label for="InputWeight">Height</label>
+            <label for="InputWeight">Weight</label>
             <input type="text" class="form-control" id="InputWeight" placeholder="Enter your weight in kg">
         </div>
         <div class="form-group">
-            <label for="InputHeight">Weight</label>
-            <input type="text" class="form-control" id="InputHeight" placeholder="Enter your height in cm">
+            <label for="InputHeight">Height</label>
+            <input type="text" class="form-control" id="InputHeight" placeholder="Enter your height in meters">
         </div>
-        <button onclick="calc()" type="submit" class="btn btn-primary">Submit</button>
+        <button onclick="calc()" type="submit" id="calcbtn" class="btn btn-primary">Submit</button>
     </form>
-    <script src="app.js"></script>
 </body>
 </html>
