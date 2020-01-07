@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="bootstap-grid.min.css">
+    <link rel="stylesheet" href="bootstap.min.css">
+    <title>BMI Calculator</title>
+</head>
+
+<body>
+    <form>
+        <div class="form-group">
+            <label for="InputAge">Age</label>
+            <input type="text" class="form-control" id="InputAge" placeholder="Enter your age">
+        </div>
+        <div class="form-group">
+            <label for="InputWeight">Height</label>
+            <input type="text" class="form-control" id="InputWeight" placeholder="Enter your weight in cm">
+        </div>
+        <div class="form-group">
+            <label for="InputHeight">Weight</label>
+            <input type="text" class="form-control" id="InputHeight" placeholder="Enter your height in cm">
+        </div>
+        <button onclick="calc()" class="btn btn-primary">Submit</button>
+    </form>
+    <script src="app.js"></script>
+</body>
+</html>
