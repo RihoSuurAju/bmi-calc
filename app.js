@@ -1,15 +1,13 @@
 let html = document.body.innerHTML;
 
-
-
 function calc() {
 
-    const Age = document.getElementById.innerHTML("InputAge");
-    const Weight = document.getElementById.innerHTML("InputWeight");
-    const Height = document.getElementById.innerHTML("InputHeight");
+    const Age = document.getElementById("InputAge");
+    const Weight = document.getElementById("InputWeight");
+    const Height = document.getElementById("InputHeight");
     const BMI = 1.3 * Weight / Height;
 
-    if (Age > 20 && Age < 60) {
+    if (Age > 20) {
         if (BMI < 16) 
             alert(`Sinu BMI on ${BMI}. Olete ohtlikult alakaaluline.`);
         if (BMI > 15.9) 
